@@ -1,0 +1,2 @@
+﻿docker build -f WebApi/Dockerfile -t dougfidelis/apiusuario .
+docker run -p 80:80 -d dougfidelis/apiusuario
